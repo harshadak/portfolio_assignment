@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+/* Header styles */
+
+.header {
+    background-color: #e1dee8;
+    padding: 12px;
+}
+.header h1 {
+    display: inline;
+    margin-left: 20px;
+    font-family: 'Bellefair', serif;
+    font-size: 50px;
+}
+.header h2 {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* Main Content styles */
+
+.main-content {
+    padding: 30px;
+    text-align: center;
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#BA7B90 5%, #91455E 15%, #560D25 60%);
+    /* Safari 5.1-6.0 */
+    background: -o-radial-gradient(#BA7B90 5%, #91455E 15%, #560D25 60%);
+    /* For Opera 11.6-12.0 */
+    background: -moz-radial-gradient(#BA7B90 5%, #91455E 15%, #560D25 60%);
+    /* For Firefox 3.6-15 */
+    background: radial-gradient(#BA7B905 5%, #91455E 15%, #560D25 60%);
+    /* Standard syntax */
+}
+
+/* About Me styles */
+
+.about-me {
+    margin-bottom: 20px
+}
+.about-me img {
+    width: 480px;
+    height: 300px;
+    display: inline-block;
+    border: 5px solid grey;
+    margin-right: 20px;
+}
+.my-intro {
+    width: 480px;
+    height: 310px;
+    display: inline-block;
+    background-color: #d9d6db;
+    vertical-align: top;
+}
+
+/* Common style */
+
+.main-content h3.main-heading {
+    font-size: 24px;
+    background-color: #959396;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+.main-content p.info {
+    padding: 10px;
+    font-size: 17px;
+    text-align: left;
+}
+
+/* Projects styles */
+
+.projects {
+    display: block;
+    width: 950px;
+}
+.project-info {
+    display: inline-block;
+}
