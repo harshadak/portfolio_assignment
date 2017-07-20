@@ -43,6 +43,9 @@
     background: radial-gradient(#BA7B905 5%, #91455E 15%, #560D25 60%);
     /* Standard syntax */
 }
+.main-content h3.main-heading {
+    font-size: 24px;
+}
 
 /* About Me styles */
 
@@ -60,16 +63,28 @@
     width: 480px;
     height: 310px;
     display: inline-block;
-    background-color: #d9d6db;
+    background-color: #F2F2F2;
     vertical-align: top;
+}
+.my-intro p.info a {
+    color: #000;
 }
 
 /* Common style */
 
-.main-content h3.main-heading {
-    font-size: 24px;
+.main-content h3.main-heading,
+.project-info h4.tools {
     background-color: #959396;
-    color: #fff;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#BDBDBD, #A4A4A4, #585858);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#BDBDBD, #A4A4A4, #585858);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#BDBDBD, #A4A4A4, #585858);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#BDBDBD, #A4A4A4, #585858);
+    /* Standard syntax */
+    color: #e5e8dc;
     padding: 10px;
     text-align: left;
 }
@@ -83,8 +98,64 @@
 
 .projects {
     display: block;
-    width: 950px;
+    width: 1040px;
+    /*    margin: 0 auto;*/
 }
 .project-info {
     display: inline-block;
+    width: 310px;
+    background-color: #F2F2F2;
+    vertical-align: top;
+    margin: 0 15px;
+}
+.project-info img.project-image {
+    width: 300px;
+}
+.project-info h4.tools {
+    font-size: 16px;
+}
+.project-info div.logo-images {
+    display: block;
+    text-align: left;
+    margin: 10px;
+}
+.project-info img.project-logo {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    margin: 5px;
+}
+.projects button {
+    color: #fff;
+    background-color: green;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Footer styles */
+
+.footer {
+    background-color: #e1dee8;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+.footer h5 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.footer ul li {
+    display: inline;
+}
+.footer ul li img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.footer a {
+    color: black;
+    margin-left: 5px;
 }
